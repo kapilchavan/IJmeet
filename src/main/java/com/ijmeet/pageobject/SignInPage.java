@@ -25,7 +25,8 @@ public final class SignInPage {
 
 	@FindBy(xpath = "//a[text()=' Sign In ']")
 	@CacheLookup
-	private WebElement signIn;
+	private WebElement signIn;	
+	
 	
 	// This Method is to verify visibility of Sign In button
 	public boolean signInButtonVisibility() {

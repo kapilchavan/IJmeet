@@ -9,19 +9,25 @@ import com.config.Constants;
 
 public final class SignUpPage {
 	
-	public SignUpPage() {
+	private static SignUpPage signUpPage = new SignUpPage();
+	
+	private SignUpPage() {
 		// This is to Initializing the page Objects
 		PageFactory.initElements(Constants.driver, this);
 	}
 	
-	/*public static SignUpPage getsignUpPage() {
+	public static SignUpPage getsignUpPage() {
 		
 		return signUpPage;
-	}*/
+	}
 	
-	@FindBy(xpath = " //a[contains(text(),'Sign Up')]")
+	@FindBy(xpath = "//a[contains(text(),'Sign Up')]")
 	@CacheLookup
 	private WebElement signup;
+	
+	//@FindBy(xpath = "//input[@id='name']")
+	//@CacheLookup
+	
 	
 	// This Method is to verify visibility of Sign Up button
 	public boolean SignUpButtonVisibility() {

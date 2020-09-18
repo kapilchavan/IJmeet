@@ -11,7 +11,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 
-public class SignInSteps {
+/*public class SignInSteps {
 	
 	@Given("launch chrome browser")
 	public void launch_chrome_browser() {
@@ -87,5 +87,5 @@ public class SignInSteps {
 	@Then("user enters password {string}")
 	public void user_enters_password(String string) {
 	}
-}
+}*/
 	
