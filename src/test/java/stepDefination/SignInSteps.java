@@ -11,16 +11,15 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 
-/*public class SignInSteps {
+public class SignInSteps {
 	
-	@Given("launch chrome browser")
+	/*@Given("launch chrome browser")
 	public void launch_chrome_browser() {
 	   
 		Keywords.openBrowser("Chrome");
 		Keywords.maximizeBrowser();
 		Keywords.loggerInfo("****** Launching chrome browser *****");
 	}
-
 	
 	@When("^User opens URL \"([^\"]*)\"$")
 	public void user_opens_URL(String url) {
@@ -86,6 +85,6 @@ import io.cucumber.java.en.When;
 
 	@Then("user enters password {string}")
 	public void user_enters_password(String string) {
-	}
-}*/
+	}*/
+}
 	

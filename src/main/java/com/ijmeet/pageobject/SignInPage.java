@@ -25,8 +25,15 @@ public final class SignInPage {
 
 	@FindBy(xpath = "//a[text()=' Sign In ']")
 	@CacheLookup
-	private WebElement signIn;	
+	private WebElement signIn;
 	
+	@FindBy(css = "#email")
+	@CacheLookup
+	private WebElement emailAddressTextbox;
+	
+	@FindBy(css = "#password")
+	@CacheLookup
+	private WebElement passwordTextbox;	
 	
 	// This Method is to verify visibility of Sign In button
 	public boolean signInButtonVisibility() {
@@ -36,5 +43,15 @@ public final class SignInPage {
 	// This method to click on Sign In link
 	public void clickOnSign() {
 		signIn.click();
+	}
+	
+	// This method to enter email address in email address textbox
+	public void enterEmailAddress(String emailAddress) {
+	emailAddressTextbox.sendKeys(emailAddress);
+	}
+
+	// This method to enter Password in email Password textbox
+	public void enterPassword(String password) {
+	passwordTextbox.sendKeys(password);
 	}
 }

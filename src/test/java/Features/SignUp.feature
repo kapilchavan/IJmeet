@@ -1,35 +1,16 @@
 Feature: Verify Sign Up page
 
-  Background: Below some common steps
+  Background: Verify user navigates to Sign Up page
     Given launch chrome browser
     When Opens URL "https://ijmeet.com/"
-    Then Check visibility of Sign Up button
+    And Check visibility of Sign Up button
     Then Click on Sign Up button
     Then Navigate to Sign Up Page
 
-  Scenario: Verify Sign Up page fields
-    Then Mouse hover on Full Name text box
-    Given Enter Full Name as "Arjun Reddy"
-    Then Mouse hover on Company Name text box
-    Given Enter Company Name as "ABC Ltd"
-    Then Mouse hover on Email id text box
-    Given Enter Email id as "arjunreddy8254@gmail.com"
-    Then Mouse hover on Mobile Number text box
-    Given Enter Mobile Number as "9876543210"
-    Given User Enters Password as "abc@1234"
-    And user validates captcha
-    Given User clicks on Sign Up button
+  Scenario: Verify user navigates to google account
+    When Click on Sign in with google account button
+    Then navigates to google account   
 
-  #Scenario: Verify if user already have an account
-    #Then Mousehover on already have an account login link
-    #Given Click on log in link
-    #Then User navigates to ijmeet login page
-#
-  #Scenario: Verify user navigates to google account
-    #Given Click on Sign in with google account button
-    #Then navigates to google account
-    #
-  #Scenario: Verify user navigates to facebook account
-    #Given Click on Sign in with facebook button
-    #Then navigates to facebook page
-      #
+  Scenario: Verify user navigates to facebook account
+    When Click on Sign in with facebook button
+    Then navigates to facebook login page

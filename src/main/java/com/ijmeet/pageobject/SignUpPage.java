@@ -1,5 +1,6 @@
 package com.ijmeet.pageobject;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
@@ -21,12 +22,17 @@ public final class SignUpPage {
 		return signUpPage;
 	}
 	
-	@FindBy(xpath = "//a[contains(text(),'Sign Up')]")
+	@FindBy(xpath = "//a[@class='nav-link  nav-right-cutom-bg-1 font-weight-bold']")
 	@CacheLookup
 	private WebElement signup;
 	
-	//@FindBy(xpath = "//input[@id='name']")
-	//@CacheLookup
+	@FindBy(xpath = "//a[@class='social-login-button social-login-button-google']")
+	@CacheLookup
+	private WebElement btngoogle;
+	
+	@FindBy(xpath = "//a[@class='social-login-button social-login-button-facebook']")
+	@CacheLookup
+	private WebElement btnfacebook;
 	
 	
 	// This Method is to verify visibility of Sign Up button
@@ -39,6 +45,17 @@ public final class SignUpPage {
 	public void clickOnSignUp() {
 		
 		signup.click();
-	}	
+	}
+	
+	public void btn_google_click() {
+		
+		btngoogle.click();
+	}
+	
+	public void btn_facebook_click() {
+		
+		btnfacebook.click();
+
+	}
 
 }

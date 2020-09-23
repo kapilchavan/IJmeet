@@ -42,7 +42,7 @@ public class Keywords {
 	 * <li>IE</li> only above mention browsers can be open using this method
 	 * 
 	 * @param browserName
-	 * @author Kapil Chavan
+	 * @author Sujit Kolhe
 	 * 
 	 */
 	public static void openBrowser(String browserName) {
@@ -72,7 +72,7 @@ public class Keywords {
 	 * This method is used to launched the url in the browser is looking at. .
 	 * 
 	 * @param url
-	 * @author Kapil Chavan
+	 * @author Sujit Kolhe
 	 * 
 	 */
 	public static void launchURL(String url) {
@@ -83,7 +83,7 @@ public class Keywords {
 	 * This method is used to maximizes the current window which recently launched
 	 * url.
 	 * 
-	 * @author Kapil Chavan
+	 * @author Sujit Kolhe
 	 * 
 	 */
 	public static void maximizeBrowser() {
@@ -102,7 +102,7 @@ public class Keywords {
 	 * method
 	 * 
 	 * @return WebElement
-	 * @author Kapil Chavan
+	 * @author Sujit Kolhe
 	 * 
 	 */
 	public static WebElement getWebElement(String locatorType, String locatorValue) {
@@ -142,7 +142,7 @@ public class Keywords {
 	/**
 	 * This method is used to click on target web element on current page.
 	 * 
-	 * @author Kapil Chavan
+	 * @author Sujit Kolhe
 	 * 
 	 */
 	public static void clickOnElement(String locatorType, String locatorValue) {
@@ -152,7 +152,7 @@ public class Keywords {
 	/**
 	 * This method is used to hover on target element to move to on current window.
 	 * 
-	 * @author Kapil Chavan
+	 * @author Sujit Kolhe
 	 * 
 	 */
 	public static void hoverOnElement(String locatorType, String locatorValue) {
@@ -225,7 +225,7 @@ public class Keywords {
 	 * This method is used to typing the text in the target element.
 	 *
 	 * @param keysToSend character sequence to send to the element
-	 * @author Kapil Chavan
+	 * @author Sujit Kolhe
 	 * 
 	 */
 	public static void enterText(String locatorType, String locatorValue, String textToEnter) {
@@ -236,7 +236,7 @@ public class Keywords {
 	 * This method is used to switch to a different frame or window.
 	 *
 	 * @return A TargetLocator which can be used to select a frame or window
-	 * @author Kapil Chavan
+	 * @author Sujit Kolhe
 	 * 
 	 */
 	public static void switchToWindow(int windowIndex) {
@@ -249,7 +249,7 @@ public class Keywords {
 	 * This method is used to create logging operations, except configuration and *
 	 * See {@getLogger(String)} detailed information.
 	 * 
-	 * @author Kapil Chavan
+	 * @author Sujit Kolhe
 	 * 
 	 */
 	public static void loggerInfo(String message) {
@@ -261,7 +261,7 @@ public class Keywords {
 	/*
 	 * This method is used to delete cookies
 	 *
-	 * @author Kapil Chavan
+	 * @author Sujit Kolhe
 	 *
 	 */
 	public static void deleteAllCookies() {
@@ -271,7 +271,7 @@ public class Keywords {
 	/*
 	 * This method is used to sleep methods
 	 * 
-	 * @author Kapil Chavan
+	 * @author Sujit Kolhe
 	 * 
 	 */
 	public static void sleep(int time) {
@@ -289,7 +289,7 @@ public class Keywords {
 	 * @param filepath the path of the file to read
 	 * @throws IOException
 	 * @throws FileNotFoundException
-	 * @author Kapil Chavan
+	 * @author Sujit Kolhe
 	 * 
 	 */
 	public static void readJsonFile(String filePath,String key) {
@@ -316,7 +316,7 @@ public class Keywords {
 	
 	/**
      * This method will delete all the cookies for the current domain.
-     * @author Kapil Chavan
+     * @author Sujit Kolhe
      * 
      */
 	public static void deleteCookies() {
@@ -325,7 +325,7 @@ public class Keywords {
 	
 	/**
 	 * This method is used to highlight element.
-	 * @author Kapil Chavan
+	 * @author Sujit Kolhe
 	 */
     public static void highlightElement(String locatorType,String locatorValue ) {
     	Constants.element= getWebElement(locatorType, locatorValue);
@@ -338,7 +338,7 @@ public class Keywords {
 	 * This method is used to Close the current window, quitting the browser if it's
 	 * the last window currently open.
 	 * 
-	 * @author Kapil Chavan
+	 * @author Sujit Kolhe
 	 * 
 	 */
 	public static void closeBrowser() {
@@ -347,7 +347,7 @@ public class Keywords {
 
 	/**
 	 * This method is used to quits this driver, closing every associated window.
-	 *  @author Kapil Chavan
+	 *  @author Sujit Kolhe
 	 * 
 	 */
 	public static void quiteDriver() {
