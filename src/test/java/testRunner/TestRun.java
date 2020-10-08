@@ -15,7 +15,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(features=".//src/test/java/Features/SignUp.feature", 
                  glue="stepDefination",
                  monochrome=true,
-                 dryRun=false,
+                 dryRun=true,
                  strict=true,
                  plugin={"pretty","html:Report/ExtentsCucumberReport"})
 

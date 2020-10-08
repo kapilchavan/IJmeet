@@ -34,6 +34,10 @@ public final class SignUpPage {
 	@CacheLookup
 	private WebElement btnfacebook;
 	
+	@FindBy(xpath = "//span[contains(text(),'Log in')]")
+	@CacheLookup
+	private WebElement lnkLog_in;
+	
 	
 	// This Method is to verify visibility of Sign Up button
 	public boolean SignUpButtonVisibility() {
@@ -55,7 +59,11 @@ public final class SignUpPage {
 	public void btn_facebook_click() {
 		
 		btnfacebook.click();
-
+	}
+	
+	public void lnkLog_in_click() {
+		
+		lnkLog_in.click();
 	}
 
 }

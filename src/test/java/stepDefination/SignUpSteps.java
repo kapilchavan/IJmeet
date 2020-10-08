@@ -91,5 +91,18 @@ public class SignUpSteps {
 	   
 		Keywords.loggerInfo("****** navigates to facebook login page *****");
 	}
+	
+	@When("Click on Log in link")
+	public void click_on_Log_in_link() {
+	    
+		Constants.signUpPage = SignUpPage.getsignUpPage();
+		Constants.signUpPage.lnkLog_in_click();
+	}
+
+	@Then("navigates to Sign In page")
+	public void navigates_to_Sign_In_page() {
+		
+	    Keywords.loggerInfo("****** Navigates to Sign In page ********");
+	}
 
 }

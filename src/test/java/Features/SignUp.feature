@@ -9,8 +9,12 @@ Feature: Verify Sign Up page
 
   Scenario: Verify user navigates to google account
     When Click on Sign in with google account button
-    Then navigates to google account   
+    Then navigates to google account
 
   Scenario: Verify user navigates to facebook account
     When Click on Sign in with facebook button
     Then navigates to facebook login page
+
+  Scenario: Verify when user already have an ijmeet account, when click on Log in link page redirect to Sign In screen
+    When Click on Log in link
+    Then navigates to Sign In page

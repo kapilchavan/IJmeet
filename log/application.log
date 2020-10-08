@@ -1090,3 +1090,47 @@
 2020-09-23 18:35:58 23331 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\KAPIL\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
 2020-09-23 18:36:02 27263 INFO  [main] - ****** Launching chrome browser *****
 2020-09-23 18:36:10 35749 INFO  [main] - ****** Open URL *****
+2020-09-23 20:10:19 16466 INFO  [main] - ****** Launching chrome browser *****
+2020-09-23 20:10:41 38420 INFO  [main] - ****** Open URL *****
+2020-09-23 20:10:42 39533 INFO  [main] - *****Verify visibility of Sign Up button******
+2020-09-23 20:10:50 47200 INFO  [main] - ****** Navigate to Sign Up Page *****
+2020-09-23 20:11:02 58857 INFO  [main] - ****** Clicks on Sign in with Google+ *****
+2020-09-23 20:11:02 58859 INFO  [main] - ****** navigates to google account *****
+2020-09-23 20:11:02 58883 INFO  [main] - Using chromedriver 85.0.4183.87 (since Google Chrome 85 is installed in your machine)
+2020-09-23 20:11:02 58897 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\KAPIL\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
+2020-09-23 20:11:13 70429 INFO  [main] - ****** Launching chrome browser *****
+2020-09-23 20:11:29 86320 INFO  [main] - ****** Open URL *****
+2020-09-24 10:56:12 15486 INFO  [main] - ****** Launching chrome browser *****
+2020-09-24 10:56:27 30714 INFO  [main] - ****** Open URL *****
+2020-09-24 10:56:29 32758 INFO  [main] - *****Verify visibility of Sign Up button******
+2020-09-24 10:56:36 39524 INFO  [main] - ****** Navigate to Sign Up Page *****
+2020-09-24 10:56:42 46184 INFO  [main] - ****** Clicks on Sign in with Google+ *****
+2020-09-24 10:56:42 46187 INFO  [main] - ****** navigates to google account *****
+2020-09-24 10:56:43 46221 INFO  [main] - Using chromedriver 85.0.4183.87 (since Google Chrome 85 is installed in your machine)
+2020-09-24 10:56:43 46234 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\KAPIL\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
+2020-09-24 10:56:47 50426 INFO  [main] - ****** Launching chrome browser *****
+2020-09-24 10:56:57 60938 INFO  [main] - ****** Open URL *****
+2020-10-03 18:39:02 9183 INFO  [main] - ****** Launching chrome browser *****
+2020-10-03 18:39:15 22239 INFO  [main] - ****** Open URL *****
+2020-10-03 18:39:16 23109 INFO  [main] - *****Verify visibility of Sign Up button******
+2020-10-03 18:39:25 32622 INFO  [main] - ****** Navigate to Sign Up Page *****
+2020-10-03 18:39:31 38708 INFO  [main] - ****** Clicks on Sign in with Google+ *****
+2020-10-03 18:39:31 38710 INFO  [main] - ****** navigates to google account *****
+2020-10-03 18:39:31 38728 INFO  [main] - Using chromedriver 85.0.4183.87 (since Google Chrome 85 is installed in your machine)
+2020-10-03 18:39:31 38743 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\KAPIL\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
+2020-10-03 18:39:42 49698 INFO  [main] - ****** Launching chrome browser *****
+2020-10-03 18:40:06 73305 INFO  [main] - ****** Open URL *****
+2020-10-06 13:06:57 11864 INFO  [main] - ****** Launching chrome browser *****
+2020-10-06 13:07:06 21352 INFO  [main] - ****** Open URL *****
+2020-10-06 13:07:08 22598 INFO  [main] - *****Verify visibility of Sign Up button******
+2020-10-06 13:07:13 27738 INFO  [main] - ****** Navigate to Sign Up Page *****
+2020-10-06 13:07:19 34352 INFO  [main] - ****** Clicks on Sign in with Google+ *****
+2020-10-06 13:07:19 34356 INFO  [main] - ****** navigates to google account *****
+2020-10-06 13:07:19 34380 INFO  [main] - Using chromedriver 85.0.4183.87 (since Google Chrome 85 is installed in your machine)
+2020-10-06 13:07:19 34395 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\KAPIL\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
+2020-10-06 13:07:28 43072 INFO  [main] - ****** Launching chrome browser *****
+2020-10-06 13:07:42 56866 INFO  [main] - ****** Open URL *****
+2020-10-06 13:07:42 57458 INFO  [main] - Using chromedriver 85.0.4183.87 (since Google Chrome 85 is installed in your machine)
+2020-10-06 13:07:42 57467 INFO  [main] - Exporting webdriver.chrome.driver as C:\Users\KAPIL\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe
+2020-10-06 13:07:54 69016 INFO  [main] - ****** Launching chrome browser *****
+2020-10-06 13:10:01 196184 INFO  [main] - ****** Open URL *****
